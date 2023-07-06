@@ -1,1 +1,0 @@
-# Dữ liệu 44 loại sản phẩm được scale 600x600px
