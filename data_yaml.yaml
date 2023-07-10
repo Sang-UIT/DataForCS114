@@ -1,0 +1,56 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../yolov5/data # dataset root dir
+train: Train_data/images/train  # train images (relative to 'path') 80% images
+val: Train_data/images/val  # val images (relative to 'path') 10% images
+test:  Train_data/images/test # train images (relative to 'path') 10% images
+
+# Classes
+names:
+  0 : BanhQuyAFCViComNon 
+  1 : BanhQuyPhoMaiGery 
+  2 : BanhQuyYenMachSocolaCosy 
+  3 : BanhXopNabatiWafer 
+  4 : BlendHouseCaPheRangXay 
+  5 : ChaoGaGauDo 
+  6 : CocaColaNguyenBan 
+  7 : DauGoiDauClearMen 
+  8 : DauGoiDauHead_Shoulder 
+  9 : DauGoiXmenForBoss 
+  10 : GiaViNemSanCaKho 
+  11 : HatNguCocMilo 
+  12 : HatVaHoaQuaBuaSangDinhDuong 
+  13 : KemDanhRangColgate 
+  14 : KeoMamXoiVaDao 
+  15 : MeXungGionThienHuong 
+  16 : MiLyHaoHaoTomChuaCay 
+  17 : MiTomLyCungDinh 
+  18 : MiXaoHaoHaoTomHanh 
+  19 : MiXaoHaoHaoTomXaoChuaNgot 
+  20 : NuocC2TraXanhViChanh 
+  21 : NuocCoGazPepsiCola 
+  22 : SnickersOats 
+  23 : SotChamThitNuongHanQuoc 
+  24 : SuaCGHLViDau 
+  25 : SuaChuaVinamilkCoDuong 
+  26 : SuaDauNanhFami1Lit 
+  27 : SuaTamLifebuoyVitaminDo 
+  28 : SuaTuoiDalatMilk 
+  29 : SuaYomostViCam 
+  30 : TokpokkiHanQuoc 
+  31 : TuongCaNamDuong 
+  32 : TraThaiNguyenHuongNhai 
+  33 : TraVietQuat_HoaAtisoDo 
+  34 : TrungGaAnLien 
+  35 : PhoMaiConBoCuoi 
+  36 : TrungGaTuoiQLE 
+  37 : TrungVitKho 
+  38 : XylitolHuongLimeMint 
+  39 : TuongOtChinSu 
+  40 : XaPhongRuaTayLifeBuoyXanh 
+  41 : XucXichBapFiveStars 
+  42 : XucXichHeoCaoBoiPhoMaiBapBo 
+  43 : XucXichPonnieThitHeo
+
